@@ -1,0 +1,384 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(199, 165, 126);
+  font-size: 30px;
+  font-weight: 70;
+}
+
+.index {
+  display: grid;
+  place-items: center;
+  margin-top: 500px;
+  font-weight: 500;
+}
+
+.index p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(238, 222, 204);
+
+  margin-right: 425px;
+  margin-bottom: -50px;
+}
+
+.index h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 90px;
+  color: rgb(238, 222, 204);
+}
+
+.index a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(102, 82, 59);
+  transition: all 250ms ease;
+  text-decoration: none;
+}
+
+.index a:hover {
+  color: rgb(238, 222, 204);
+  transform: translateY(-3px);
+}
+
+.html2 {
+  background-color: #34426e;
+}
+
+.html3 {
+  background-color: #000000;
+}
+
+.html4 {
+  background-color: #854e52;
+}
+
+.html5 {
+  background-color: #d8864f;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10px;
+}
+
+header a {
+  text-decoration: none;
+  transition: all 250ms ease;
+  font-weight: 800;
+}
+
+.logotje {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.body1 a {
+  color: #ffe6c9;
+}
+
+.body1 a:hover {
+  color: #1d2644;
+}
+
+.body2 a {
+  color: #eb4343;
+}
+
+.body2 a:hover {
+  color: #e7a0a0;
+  transform: translateY(-3px);
+}
+
+.body3 a {
+  color: #ffc3c7;
+}
+
+.body3 a:hover {
+  color: #ffffff;
+}
+
+.body4 a {
+  color: #ffd3b5;
+}
+
+.body4 a:hover {
+  color: #fdfdfd;
+}
+
+.spf {
+  color: #ffffff;
+}
+
+header {
+  margin: -30px -10px 0px -10px;
+  padding-bottom: 250px;
+  padding-top: 60px;
+}
+
+.niacinamide {
+  color: rgb(255, 255, 255);
+}
+
+.retinol {
+  color: rgb(255, 255, 255);
+}
+
+.bha {
+  color: rgb(255, 255, 255);
+}
+
+.body4 header {
+  padding-bottom: 100px;
+  background-image: linear-gradient(#e5a479, #e19a6b, #dc905d, #d8864f);
+}
+
+.body2 header {
+  background-image: linear-gradient(#0e0000, #090000, #030000, #000000);
+}
+
+.body3 header {
+  padding-bottom: 100px;
+  background-image: linear-gradient(#ad7d81, #9f6d71, #925d61, #854e52);
+}
+
+.body1 header {
+  padding-bottom: 100px;
+  background-image: linear-gradient(#3f639e, #3b588e, #384d7e, #34426e);
+}
+
+.introroutine {
+  margin: 350px 300px 700px 300px;
+  text-align: center;
+  color: #362123;
+  text-shadow: 200px 70px 5px#634346;
+}
+
+.inhoudroutine p {
+  color: #362123;
+  margin: 0px 700px 400px 700px;
+  text-align: center;
+  text-shadow: 1px 1px 1px#634346;
+}
+
+.inhoudroutine h1 {
+  font-weight: 800;
+  text-align: center;
+  color: #ad7d81;
+}
+
+.inhoudroutine h2 {
+  font-weight: 800;
+  font-size: 60px;
+  margin-bottom: 100px;
+  text-shadow: 6px 3px 2px#362123;
+  text-align: center;
+  color: #eec9cc;
+}
+
+.stap1 h1 {
+  margin-bottom: -30px;
+  margin-right: 1000px;
+}
+
+.stap2 h1 {
+  margin-bottom: 60px;
+  margin-right: 600px;
+}
+
+.stap3 h1 {
+  margin-bottom: 150px;
+  margin-right: 200px;
+}
+
+.stap4 h1 {
+  margin-bottom: 150px;
+  margin-left: 200px;
+}
+
+.stap5 h1 {
+  margin-bottom: 60px;
+  margin-left: 600px;
+}
+
+.stap6 h1 {
+  margin-bottom: -30px;
+  margin-left: 1000px;
+}
+
+.introculturen {
+  color: #6e4f38;
+  margin: 350px 300px 700px 300px;
+  text-align: center;
+  text-shadow: 200px 80px 5px#a17453;
+}
+
+.inhoudculturen p {
+  color: #6e4f38;
+  margin: 0px 300px 400px 300px;
+  text-align: center;
+  text-shadow: 1px 1px 1px#a17453;
+}
+
+.inhoudculturen h1 {
+  font-weight: 800;
+  font-size: 60px;
+  margin-bottom: 100px;
+  text-shadow: 6px 3px 2px#926649;
+  text-align: center;
+  color: #facdb0;
+}
+
+.inhoudculturen h2 {
+  font-weight: 800;
+  text-align: center;
+  color: #e5a479;
+}
+
+.spf h1 {
+  font-weight: 800;
+  text-align: center;
+  color: #ffb8b8;
+  text-shadow: 0px 1px 45px#5a2121;
+  font-size: 70px;
+  margin: 200px 0px 800px 0px;
+}
+
+.spf h2 {
+  font-weight: 800;
+  text-align: center;
+  color: #b41f1f;
+  text-shadow: 0px 1px 70px#911c1c;
+  font-size: 170px;
+  margin: 0px 0px 30px 0px;
+}
+
+.body2 p {
+  color: #ffd1d1;
+  margin: 10%;
+  text-align: center;
+  text-shadow: 1px 1px 1px#a30b0b;
+}
+
+.body2 h1 {
+  font-weight: 800;
+  text-align: center;
+  color: #ffb8b8;
+  text-shadow: 0px 1px 45px#5a2121;
+}
+
+.body2 h2 {
+  font-weight: 800;
+  margin-bottom: 100px;
+  text-shadow: 0px 1px 70px#911c1c;
+  text-align: center;
+  color: #b41f1f;
+}
+
+.inhoudkernen h1 {
+  margin-top: 900px;
+}
+
+.inhoudkernen h2 {
+  font-size: 70px;
+}
+
+footer {
+  margin: 0px -10px -30px -10px;
+  padding-bottom: 60px;
+  padding-top: 250px;
+}
+
+.body2 footer {
+  background-image: linear-gradient(#000000, #030000, #090000, #0e0000);
+  font-weight: 800;
+  color: #e7a0a0;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding-left: 700px;
+  padding-right: 700px;
+  padding-bottom: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  transition: all 250ms ease;
+  font-weight: 800;
+}
+
+.body3 footer {
+  background-image: linear-gradient(#854e52, #925d61, #9f6d71, #ad7d81);
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.body4 footer {
+  background-image: linear-gradient(#d8864f, #dc905d, #e19a6b, #e5a479);
+  font-weight: 800;
+  color: #fdfdfd;
+}
+
+.body1 footer {
+  background-image: linear-gradient(#34426e, #384d7e, #3b588e, #3f639e);
+  font-weight: 800;
+  color: #1d2644;
+}
+
+.body1 h2 {
+  font-weight: 800;
+  text-align: center;
+  color: #617faf;
+  font-size: 70px;
+  margin-top: 300px;
+}
+
+.body1 h1 {
+  font-weight: 800;
+  font-size: 120px;
+  margin-bottom: 100px;
+  text-shadow: 6px 3px 2px#001b47;
+  text-align: center;
+  color: #c6dbfc;
+  margin-bottom: 600px;
+  margin-top: -30px;
+}
+
+.introskinformatie p {
+  color: #82a0d1;
+  margin: 0px 700px 0px 700px;
+  text-align: center;
+  text-shadow: 1px 1px 1px#001b47;
+}
+
+.inhoudskinformatie p {
+  color: #82a0d1;
+  margin: 0px 700px 300px 700px;
+  text-align: center;
+  text-shadow: 1px 1px 1px#001b47;
+}
+
+.introskinformatie ul {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  color: #c6dbfc;
+  text-shadow: 6px 3px 2px#001b47;
+  padding: 200px 0px 200px 0px;
+}
+
+.introskinformatie li {
+  text-decoration: none;
+}
